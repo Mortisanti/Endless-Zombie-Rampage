@@ -1,7 +1,7 @@
 view_width = 460;
 view_height = 460;
 
-window_scale = 1;
+window_scale = 2;
 
 window_set_size(view_width * window_scale, view_height * window_scale);
 alarm[0] = 1;

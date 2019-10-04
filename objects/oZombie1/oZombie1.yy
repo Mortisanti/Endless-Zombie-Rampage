@@ -1,43 +1,33 @@
 {
-    "id": "297a09cc-f4b7-4107-90b3-f90c70c0ce0a",
+    "id": "36da1293-cc28-42d2-9908-4a1b5ab3cb26",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oSpawner",
+    "name": "oZombie1",
     "eventList": [
         {
-            "id": "8a3ec9c8-f222-40b5-ac7d-6ffac69b3a3d",
+            "id": "f77647c6-1cdf-43fb-8ab0-18f1fb3fe225",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "297a09cc-f4b7-4107-90b3-f90c70c0ce0a"
+            "m_owner": "36da1293-cc28-42d2-9908-4a1b5ab3cb26"
         },
         {
-            "id": "2e8a5df3-fa57-4fa8-b052-91e269c6b2e9",
+            "id": "33e34ab6-55e5-429b-9704-3182f14f378e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "297a09cc-f4b7-4107-90b3-f90c70c0ce0a"
-        },
-        {
-            "id": "b99f5367-d68c-4155-8953-40d54877987a",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "297a09cc-f4b7-4107-90b3-f90c70c0ce0a"
+            "m_owner": "36da1293-cc28-42d2-9908-4a1b5ab3cb26"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "d8fcbfba-8350-4c5b-9b81-fc54e0d25ba5",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -53,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "b5400b23-c1bf-4ec6-84fd-317e63dd4eb1",
     "visible": true
 }

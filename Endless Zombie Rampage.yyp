@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "36da1293-cc28-42d2-9908-4a1b5ab3cb26",
+            "Value": {
+                "id": "c07748b4-e872-4e9e-b279-a83c23e1c2fe",
+                "resourcePath": "objects\\oZombie1\\oZombie1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "37f4c295-998f-41fa-894d-8e2d489b856b",
             "Value": {
                 "id": "9de7ba7c-6864-4ff9-99fe-c5c7033f9006",
@@ -415,6 +423,14 @@
             }
         },
         {
+            "Key": "b5400b23-c1bf-4ec6-84fd-317e63dd4eb1",
+            "Value": {
+                "id": "cd3ff509-b212-4c28-90c5-79c10a262651",
+                "resourcePath": "sprites\\sZombie1\\sZombie1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b7c4d488-e0a1-4f6a-ad7f-d85fb5ace60e",
             "Value": {
                 "id": "37e9028b-8605-4f3a-9838-d043b25bcee7",
@@ -475,6 +491,14 @@
             "Value": {
                 "id": "749996be-9130-456c-9081-10a8108e03da",
                 "resourcePath": "objects\\oPlayer\\oPlayer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d8fcbfba-8350-4c5b-9b81-fc54e0d25ba5",
+            "Value": {
+                "id": "0d71e581-a4cf-4cd4-920a-07d39ef7b0fa",
+                "resourcePath": "objects\\oEnemy\\oEnemy.yy",
                 "resourceType": "GMObject"
             }
         },
