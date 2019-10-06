@@ -1,3 +1,3 @@
-speed = 50;
-image_angle = point_direction(x, y, mouse_x, mouse_y);
+speed = 25;
 direction = point_direction(x, y, mouse_x, mouse_y);
+knockback = 7;

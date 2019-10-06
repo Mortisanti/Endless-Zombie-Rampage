@@ -40,3 +40,8 @@ image_angle = point_direction(x,y,mouse_x,mouse_y);
 
 window_set_cursor(cr_none);
 cursor_sprite = sCrosshair;
+
+if (myHealth <= 0)
+{
+	game_restart();
+}
