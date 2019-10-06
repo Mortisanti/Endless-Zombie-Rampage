@@ -186,7 +186,7 @@
             "Key": "3c03afb8-2106-4fa6-a716-f50cf9c97918",
             "Value": {
                 "id": "b39af899-77a3-4c7f-bc1e-6e3192ec9dde",
-                "resourcePath": "sprites\\sZombie1Death\\sZombie1Death.yy",
+                "resourcePath": "sprites\\sZombie1Dead\\sZombie1Dead.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -251,6 +251,14 @@
             "Value": {
                 "id": "127f67b1-fef1-4983-8138-63b382145e1f",
                 "resourcePath": "objects\\oWeapon\\oWeapon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5ecab514-4b12-4c7f-99f4-fdc4e32ed53b",
+            "Value": {
+                "id": "029de190-ed58-4c20-954b-754adb9e9bb0",
+                "resourcePath": "objects\\oPlayerDead\\oPlayerDead.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -404,6 +412,14 @@
                 "id": "597fb989-349e-4495-8b2c-77c25fe1f812",
                 "resourcePath": "sounds\\auto_shotgun\\auto_shotgun.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "a6513289-55a3-4763-9be0-08eaff2f1a03",
+            "Value": {
+                "id": "5b1987ac-7e36-4ce8-90a2-f35f5a8d256c",
+                "resourcePath": "sprites\\sPlayerDead\\sPlayerDead.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

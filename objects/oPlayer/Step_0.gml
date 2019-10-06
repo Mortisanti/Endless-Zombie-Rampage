@@ -43,5 +43,6 @@ cursor_sprite = sCrosshair;
 
 if (myHealth <= 0)
 {
-	game_restart();
+	instance_create_layer(x,y,"Instances",oPlayerDead);
+	instance_destroy();
 }
