@@ -1,25 +1,3 @@
-/*
-if (keyboard_check(vk_left) || keyboard_check(ord("A")))
-{
-	x -= 2;
-}
-
-if (keyboard_check(vk_right) || keyboard_check(ord("D")))
-{
-	x += 2;
-}
-
-if (keyboard_check(vk_up) || keyboard_check(ord("W")))
-{
-	y -= 2;
-}
-
-if (keyboard_check(vk_down) || keyboard_check(ord("S")))
-{
-	y += 2;
-}
-*/
-
 hInput = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 vInput = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 if (hInput != 0 || vInput != 0)
@@ -43,6 +21,6 @@ cursor_sprite = sCrosshair;
 
 if (myHealth <= 0)
 {
-	instance_create_layer(x,y,"Instances",oPlayerDead);
+	instance_create_layer(x,y,"Player",oPlayerDead);
 	instance_destroy();
 }

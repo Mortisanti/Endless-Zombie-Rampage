@@ -14,8 +14,8 @@ if (instance_exists(oPlayer))
 				ammo -= 1;
 				canShoot = false;
 				alarm[0] = 10;
-				instance_create_layer(x,y,"Instances",oBullet);
-				instance_create_layer(x,y,"Instances",oMuzzleFlash);
+				instance_create_layer(x,y,"Player",oBullet);
+				instance_create_layer(x,y,"Player",oMuzzleFlash);
 				audio_play_sound(pistol,10,false);
 				scrScreenShake(50,10);
 			}

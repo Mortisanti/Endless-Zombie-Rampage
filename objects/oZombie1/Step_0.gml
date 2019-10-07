@@ -1,7 +1,8 @@
 if (instance_exists(oPlayer))
 {
 	move_towards_point(oPlayer.x,oPlayer.y,spd);
-	image_angle = point_direction(x,y,oPlayer.x,oPlayer.y) - 90;
+	dir = point_direction(x,y,oPlayer.x,oPlayer.y) - 90;
+	image_angle = dir;
 
 	if (myHealth <= 0)
 	{
