@@ -11,9 +11,9 @@ if (instance_exists(oPlayer))
 		{
 			if (mouse_check_button_pressed(mb_left))
 			{
-				ammo -= 1;
 				canShoot = false;
-				alarm[0] = 10;
+				ammo -= 1;
+				alarm[0] = 8;
 				instance_create_layer(x,y,"Player",oBullet);
 				instance_create_layer(x,y,"Player",oMuzzleFlash);
 				audio_play_sound(pistol,10,false);

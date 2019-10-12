@@ -7,7 +7,7 @@
         "e7524cbc-0967-4606-87d2-e7c3a419ac55"
     ],
     "filterType": "GMSprite",
-    "folderName": "Weapons",
+    "folderName": "Weapons (HUD)",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

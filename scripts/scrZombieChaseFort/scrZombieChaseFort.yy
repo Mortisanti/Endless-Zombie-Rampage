@@ -1,8 +1,8 @@
 {
-    "id": "bded4bda-1dea-4691-8209-fa76bffb98a3",
+    "id": "443234af-98b5-4bae-8189-3259533ba5cd",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scrFire",
+    "name": "scrZombieChaseFort",
     "IsCompatibility": false,
     "IsDnD": false
 }
