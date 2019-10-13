@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "328ddca5-cc94-4a05-a5a0-216e51eed867",
+            "Value": {
+                "id": "96fc1b6f-829d-4018-92fb-02807be57d7f",
+                "resourcePath": "objects\\oZombie1Dead2\\oZombie1Dead2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3659a6c1-59d1-47a2-820f-acf661390f57",
             "Value": {
                 "id": "ac6c41a9-c801-4b13-87c0-9d9d6207511d",
@@ -202,7 +210,7 @@
             "Key": "3c03afb8-2106-4fa6-a716-f50cf9c97918",
             "Value": {
                 "id": "b39af899-77a3-4c7f-bc1e-6e3192ec9dde",
-                "resourcePath": "sprites\\sZombie1Dead\\sZombie1Dead.yy",
+                "resourcePath": "sprites\\sZombie1Dead1\\sZombie1Dead1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -228,6 +236,22 @@
                 "id": "7091a02b-6cdc-45ad-a6b5-4b0712f4954b",
                 "resourcePath": "objects\\oBullet\\oBullet.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "48538561-b400-4038-849d-54f3ca31b7b2",
+            "Value": {
+                "id": "ea28f1c0-4e9f-433e-8a36-ece934305086",
+                "resourcePath": "objects\\oHitBorder\\oHitBorder.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4a68f286-fc75-41fc-9745-61b1dac08a43",
+            "Value": {
+                "id": "e4ef3ee4-a824-4f49-821b-134808f7b067",
+                "resourcePath": "sprites\\sHitBorder\\sHitBorder.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -268,6 +292,14 @@
                 "id": "560735fd-35a4-4243-80a8-a9813e840784",
                 "resourcePath": "views\\568720cd-3097-41dc-8e76-85b3812507ec.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "58f2c138-2c97-4642-a10b-ad91808f37f0",
+            "Value": {
+                "id": "513f11cb-981d-4cab-93ba-c5a005b47eb7",
+                "resourcePath": "sprites\\sFloorSplatter\\sFloorSplatter.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -362,7 +394,15 @@
             "Key": "7410deaf-face-4781-9ecd-58b178438595",
             "Value": {
                 "id": "91edaf76-c622-46a9-913f-af8474df964f",
-                "resourcePath": "objects\\oZombie1Dead\\oZombie1Dead.yy",
+                "resourcePath": "objects\\oZombie1Dead1\\oZombie1Dead1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "74b76e32-f132-4036-b013-6a098c46225c",
+            "Value": {
+                "id": "8c11964d-7ab9-4cbe-be6d-4efaee6c3dca",
+                "resourcePath": "objects\\oFloorSplatter\\oFloorSplatter.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -415,6 +455,14 @@
             }
         },
         {
+            "Key": "86147398-0c49-48c6-95ed-38230bbdd43d",
+            "Value": {
+                "id": "a6443d7e-c3a3-4d35-8140-14a952b98d6b",
+                "resourcePath": "views\\86147398-0c49-48c6-95ed-38230bbdd43d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8b4fb8df-4055-4c19-847d-5cf3410c9a6b",
             "Value": {
                 "id": "4f51b51d-85d4-445a-8601-cc6e8c362067",
@@ -436,6 +484,14 @@
                 "id": "beac6de6-d69b-4dbe-b59d-74e193e0fbee",
                 "resourcePath": "views\\91048a32-d6f3-4045-8382-47043abcf6c2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9140e4a9-4a2f-4cd0-af7c-4a3af0ed8802",
+            "Value": {
+                "id": "71ff213b-dfbc-40d7-bd5c-1c8c6be9c9f3",
+                "resourcePath": "sprites\\sZombie1Dead2\\sZombie1Dead2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -725,7 +781,8 @@
         "6bd12acc-213e-47f0-9fac-105b845623ab",
         "443234af-98b5-4bae-8189-3259533ba5cd",
         "7ea4a600-1b36-4c02-b86b-b7d97aa94774",
-        "ec68c8bb-7b5b-4c8d-b653-71f2b401057c"
+        "ec68c8bb-7b5b-4c8d-b653-71f2b401057c",
+        "6f2661cd-d78f-4d12-a15d-d5ff50565f9c"
     ],
     "tutorial": ""
 }

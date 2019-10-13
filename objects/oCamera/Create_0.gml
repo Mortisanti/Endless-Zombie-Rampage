@@ -1,3 +1,4 @@
+/*
 view_width = 460;
 view_height = 345;
 
@@ -12,3 +13,4 @@ shake_length = 0;
 shake_strength = 0;
 shake_remain = 0;
 buff = 16;
+*/

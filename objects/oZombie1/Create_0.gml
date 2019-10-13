@@ -8,5 +8,16 @@ enum states
 
 myHealth = 5;
 spd = 0.5;
-// set to choose(states.chaseFort,states.chasePlayer) when chaseFort code is done
-state = states.chasePlayer;
+canAttack = true;
+meleeDamage = 1;
+chaseWho = choose(0,1);
+death = choose(0,1);
+
+if (chaseWho == 0)
+{
+	state = states.chaseFort;
+}
+else
+{
+	state = states.chasePlayer;
+}

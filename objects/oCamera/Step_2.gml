@@ -1,3 +1,4 @@
+/*
 #macro view view_camera[0]
 camera_set_view_size(view,view_width,view_height);
 
@@ -16,4 +17,4 @@ if (instance_exists(oPlayer))
 	var _spd = .1;
 	camera_set_view_pos(view,lerp(_cur_x,_x,_spd),lerp(_cur_y,_y,_spd));
 }
-
+*/

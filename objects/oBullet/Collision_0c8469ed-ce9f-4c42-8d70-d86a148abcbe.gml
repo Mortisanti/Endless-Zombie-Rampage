@@ -11,9 +11,12 @@ with other
 	
 	if (other.knock == 1)
 	{
-		x += lengthdir_x(other.knockback,other.direction);
-		y += lengthdir_y(other.knockback,other.direction);
-		image_index = 0;
+		if (!place_meeting(x,y,oFort))
+		{
+			x += lengthdir_x(other.knockback,other.direction);
+			y += lengthdir_y(other.knockback,other.direction);
+			image_index = 0;
+		}
 	}
 	
 	if (other.splatter == 1)

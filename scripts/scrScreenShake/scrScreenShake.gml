@@ -2,7 +2,7 @@
 /// @arg Strength sets the strength of the shake (radius in pixels)
 /// @arg Frames sets the length of the shake in frames (30 = 1 second at 30fps)
 
-with (oCamera)
+with (oGlobalControls)
 {
 	if (argument0 > shake_remain)
 	{
