@@ -5,6 +5,6 @@ if (death == 0)
 else
 {
 	instance_create_layer(x,y,"Corpses",oZombie1Dead2);
-	instance_create_layer(x,y,"Corpses",oFloorSplatter);
+	instance_create_layer(x,y,"FloorSplatter",oFloorSplatter);
 	audio_play_sound(zombie_explosion1,10,false);
 }

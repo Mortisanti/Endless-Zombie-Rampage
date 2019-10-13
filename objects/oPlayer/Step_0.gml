@@ -1,5 +1,7 @@
+#region Movement and Angles
 hInput = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 vInput = keyboard_check(ord("S")) - keyboard_check(ord("W"));
+
 if (hInput != 0 || vInput != 0)
 {
 	image_speed = 0.75;
@@ -16,12 +18,50 @@ else
 }
 
 angle = point_direction(x,y,mouse_x,mouse_y);
+#endregion
 
-window_set_cursor(cr_none);
-cursor_sprite = sCrosshair;
+#region Shooting
+if (canShoot)
+{
+	if (wep_currentAmmo[wep] > 0 && !reloading)
+	{
+		if (mouse_check_button_pressed(mb_left))
+		{
+			scrFire();
+		}
+		else if (wep_currentAmmo[wep] < wep_maxAmmo[wep] && keyboard_check_pressed(ord("R")))
+		{
+			scrReload();
+		}
+	}
+	else
+	{
+		scrReload();
+	}
+	
+	if (reloading)
+	{
+		reloadMin += 1;
+	}
+}
+#endregion
 
+#region Reloading
+if (reloading)
+{
+	reloadMin += 1;
+}
+
+if (mouse_check_button_pressed(mb_left) && reloading)
+{
+	audio_play_sound(empty,10,false);
+}
+#endregion
+
+#region Death
 if (myHealth <= 0)
 {
 	instance_create_layer(x,y,"Player",oPlayerDead);
 	instance_destroy();
 }
+#endregion
