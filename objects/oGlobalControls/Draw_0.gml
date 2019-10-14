@@ -1,17 +1,20 @@
-draw_set_font(fHUDName);
-draw_text(camX+10,camY+5,oPlayer.wep_name[oPlayer.wep]);
-draw_sprite(oPlayer.wep_HUDSprite[oPlayer.wep],0,camX+10,camY+30);
-draw_set_font(fHUDAmmo);
-
-if (!oPlayer.reloading)
-{	
-	draw_text(camX+90,camY+60,"x"+string(oPlayer.wep_currentAmmo[oPlayer.wep]));
-}
-else
+if (instance_exists(oPlayer))
 {
-	draw_text(camX+90,camY+45,"Reloading");
-	draw_sprite(sReloadBar1,0,camX+95,camY+60);
-	draw_sprite_stretched(sReloadBar2,0,camX+95,camY+60,(oPlayer.reloadMin / oPlayer.wep_reloadMax[oPlayer.wep]) * 56,6)
+	draw_set_font(fHUDName);
+	draw_text(camX+10,camY+5,oPlayer.wep_name[oPlayer.wep]);
+	draw_sprite(oPlayer.wep_HUDSprite[oPlayer.wep],0,camX+10,camY+30);
+	draw_set_font(fHUDAmmo);
+
+	if (!oPlayer.reloading)
+	{	
+		draw_text(camX+90,camY+60,"x"+string(oPlayer.wep_currentAmmo[oPlayer.wep]));
+	}
+	else
+	{
+		draw_text(camX+90,camY+45,"Reloading");
+		draw_sprite(sReloadBar1,0,camX+95,camY+60);
+		draw_sprite_stretched(sReloadBar2,0,camX+95,camY+60,(oPlayer.reloadMin / oPlayer.wep_reloadMax[oPlayer.wep]) * 56,6)
+	}
 }
 
 if (instance_exists(oPlayerDead))

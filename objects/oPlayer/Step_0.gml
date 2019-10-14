@@ -1,4 +1,5 @@
 #region Movement and Angles
+
 hInput = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 vInput = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
@@ -18,14 +19,27 @@ else
 }
 
 angle = point_direction(x,y,mouse_x,mouse_y);
+
 #endregion
 
 #region Shooting
+
 if (canShoot)
 {
-	if (wep_currentAmmo[wep] > 0 && !reloading)
+	if (wep_currentAmmo[wep] > 0 && wep_auto[wep] == false && !reloading)
 	{
 		if (mouse_check_button_pressed(mb_left))
+		{
+			scrFire();
+		}
+		else if (wep_currentAmmo[wep] < wep_maxAmmo[wep] && keyboard_check_pressed(ord("R")))
+		{
+			scrReload();
+		}
+	}
+	else if (wep_currentAmmo[wep] > 0 && wep_auto[wep] == true && !reloading)
+	{
+		if (mouse_check_button(mb_left))
 		{
 			scrFire();
 		}
@@ -44,9 +58,11 @@ if (canShoot)
 		reloadMin += 1;
 	}
 }
+
 #endregion
 
 #region Reloading
+
 if (reloading)
 {
 	reloadMin += 1;
@@ -56,12 +72,29 @@ if (mouse_check_button_pressed(mb_left) && reloading)
 {
 	audio_play_sound(empty,10,false);
 }
+
+#endregion
+
+#region Weapon Switching
+
+if (!reloading && (mouse_wheel_up() || keyboard_check_pressed(ord("E"))) && wep < 1)
+{
+	wep += 1;
+}
+
+if (!reloading && (mouse_wheel_down() || keyboard_check_pressed(ord("Q"))) && wep > 0)
+{
+	wep -= 1;
+}
+
 #endregion
 
 #region Death
+
 if (myHealth <= 0)
 {
 	instance_create_layer(x,y,"Player",oPlayerDead);
 	instance_destroy();
 }
+
 #endregion

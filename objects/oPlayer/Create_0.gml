@@ -5,7 +5,6 @@ spd = 1.5;
 myHealth = 10;
 
 wep = 0;
-wep_currentAmmo[wep] = wep_maxAmmo[wep];
 canShoot = true;
 reloading = false;
 reloadMin = 0;
