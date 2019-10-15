@@ -1,6 +1,6 @@
 scrWeapons();
 
-audio_play_sound(Zombie_Soundscape,10,true);
+audio_play_sound(zombie_soundscape,10,true);
 spd = 1.5;
 myHealth = 10;
 

@@ -32,10 +32,12 @@ if (canShoot)
 		{
 			scrFire();
 		}
+		/*
 		else if (wep_currentAmmo[wep] < wep_maxAmmo[wep] && keyboard_check_pressed(ord("R")))
 		{
 			scrReload();
 		}
+		*/
 	}
 	else if (wep_currentAmmo[wep] > 0 && wep_auto[wep] == true && !reloading)
 	{
@@ -43,25 +45,27 @@ if (canShoot)
 		{
 			scrFire();
 		}
+		/*
 		else if (wep_currentAmmo[wep] < wep_maxAmmo[wep] && keyboard_check_pressed(ord("R")))
 		{
 			scrReload();
 		}
+		*/
 	}
 	else
 	{
 		scrReload();
-	}
-	
-	if (reloading)
-	{
-		reloadMin += 1;
 	}
 }
 
 #endregion
 
 #region Reloading
+
+if (wep_currentAmmo[wep] < wep_maxAmmo[wep] && !reloading && keyboard_check_pressed(ord("R")))
+{
+	scrReload();
+}
 
 if (reloading)
 {
@@ -77,7 +81,7 @@ if (mouse_check_button_pressed(mb_left) && reloading)
 
 #region Weapon Switching
 
-if (!reloading && (mouse_wheel_up() || keyboard_check_pressed(ord("E"))) && wep < 1)
+if (!reloading && (mouse_wheel_up() || keyboard_check_pressed(ord("E"))) && wep < 2)
 {
 	wep += 1;
 }

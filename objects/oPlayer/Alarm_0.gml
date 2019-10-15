@@ -1,1 +1,4 @@
-canShoot = true;
+if (!reloading)
+{
+	canShoot = true;
+}

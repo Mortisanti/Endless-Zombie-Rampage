@@ -1,5 +1,5 @@
 {
-    "id": "a29f91f7-9cb2-4d49-b427-dafe36486232",
+    "id": "25d36c25-ea1d-405f-8816-37a91a39a3fd",
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "auto_shotgun",
