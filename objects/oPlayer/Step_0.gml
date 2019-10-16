@@ -26,31 +26,22 @@ angle = point_direction(x,y,mouse_x,mouse_y);
 
 if (canShoot)
 {
-	if (wep_currentAmmo[wep] > 0 && wep_auto[wep] == false && !reloading)
+	if (wep_currentAmmo[wep] > 0 && !reloading)
 	{
-		if (mouse_check_button_pressed(mb_left))
+		if (wep_auto[wep] == false)
 		{
-			scrFire();
+			if (mouse_check_button_pressed(mb_left))
+			{
+				scrFire();
+			}
 		}
-		/*
-		else if (wep_currentAmmo[wep] < wep_maxAmmo[wep] && keyboard_check_pressed(ord("R")))
+		else
 		{
-			scrReload();
+			if (mouse_check_button(mb_left))
+			{
+				scrFire();
+			}
 		}
-		*/
-	}
-	else if (wep_currentAmmo[wep] > 0 && wep_auto[wep] == true && !reloading)
-	{
-		if (mouse_check_button(mb_left))
-		{
-			scrFire();
-		}
-		/*
-		else if (wep_currentAmmo[wep] < wep_maxAmmo[wep] && keyboard_check_pressed(ord("R")))
-		{
-			scrReload();
-		}
-		*/
 	}
 	else
 	{
@@ -69,26 +60,44 @@ if (wep_currentAmmo[wep] < wep_maxAmmo[wep] && !reloading && keyboard_check_pres
 
 if (reloading)
 {
-	reloadMin += 1;
-}
-
-if (mouse_check_button_pressed(mb_left) && reloading)
-{
-	audio_play_sound(empty,10,false);
+	reloadStart += 1;
+	
+	if (mouse_check_button_pressed(mb_left))
+	{
+		audio_play_sound(empty,10,false);
+	}
 }
 
 #endregion
 
 #region Weapon Switching
 
-if (!reloading && (mouse_wheel_up() || keyboard_check_pressed(ord("E"))) && wep < 2)
+if (!reloading)
 {
-	wep += 1;
-}
-
-if (!reloading && (mouse_wheel_down() || keyboard_check_pressed(ord("Q"))) && wep > 0)
-{
-	wep -= 1;
+	if (mouse_wheel_up() || keyboard_check_pressed(ord("E")))
+	{
+		if (wep < 21)
+		{
+			wep += 1;
+		}
+		// Only works in experiment mode. Look up menu tutorial from Shaun Spalding for cycling.
+		else if (wep == 21)
+		{
+			wep = 0;
+		}
+	}
+	else if (mouse_wheel_down() || keyboard_check_pressed(ord("Q")))
+	{
+		if (wep > 0)
+		{
+			wep -= 1;
+		}
+		// Only works in experiment mode. Look up menu tutorial from Shaun Spalding for cycling.
+		else if (wep == 0)
+		{
+			wep = 21;
+		}
+	}
 }
 
 #endregion

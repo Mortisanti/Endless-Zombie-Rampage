@@ -7,4 +7,4 @@ myHealth = 10;
 wep = 0;
 canShoot = true;
 reloading = false;
-reloadMin = 0;
+reloadStart = 0;
