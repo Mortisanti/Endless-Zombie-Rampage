@@ -34,7 +34,7 @@
             "Key": "00deee30-49c5-4f94-b38a-19d33a4e9e59",
             "Value": {
                 "id": "76f8eaad-4721-45a5-bcda-8ef3a3afacc2",
-                "resourcePath": "sprites\\sH_scar\\sH_scar.yy",
+                "resourcePath": "sprites\\sH_SCAR\\sH_SCAR.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -626,7 +626,7 @@
             "Key": "8026dda7-0b88-4007-93a0-6600ab80a3f1",
             "Value": {
                 "id": "64ec2463-92e5-4e84-b17f-ea5fd8762fdb",
-                "resourcePath": "sprites\\sH_famas\\sH_famas.yy",
+                "resourcePath": "sprites\\sH_FAMAS\\sH_FAMAS.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -786,7 +786,7 @@
             "Key": "a8d1c323-6cf9-4417-b9b8-cfb10c7fe6b4",
             "Value": {
                 "id": "9a80c10d-4e2d-4542-a8d4-0c939e9fd9fa",
-                "resourcePath": "sprites\\sH_XM\\sH_XM.yy",
+                "resourcePath": "sprites\\sH_XM58\\sH_XM58.yy",
                 "resourceType": "GMSprite"
             }
         },

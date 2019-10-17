@@ -2,7 +2,7 @@
     "id": "a8d1c323-6cf9-4417-b9b8-cfb10c7fe6b4",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sH_XM",
+    "name": "sH_XM58",
     "For3D": false,
     "HTile": false,
     "VTile": false,

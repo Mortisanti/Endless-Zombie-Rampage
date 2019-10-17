@@ -2,7 +2,7 @@
     "id": "00deee30-49c5-4f94-b38a-19d33a4e9e59",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sH_scar",
+    "name": "sH_SCAR",
     "For3D": false,
     "HTile": false,
     "VTile": false,

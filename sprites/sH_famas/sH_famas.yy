@@ -2,7 +2,7 @@
     "id": "8026dda7-0b88-4007-93a0-6600ab80a3f1",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sH_famas",
+    "name": "sH_FAMAS",
     "For3D": false,
     "HTile": false,
     "VTile": false,
