@@ -78,7 +78,15 @@ if (!reloading)
 	{
 		if (wep < 21)
 		{
-			wep += 1;
+			// Workaround for missing XM 58
+			if (wep != 7)
+			{
+				wep += 1;
+			}
+			else
+			{
+				wep += 2;
+			}
 		}
 		// Only works in experiment mode. Look up menu tutorial from Shaun Spalding for cycling.
 		else if (wep == 21)
@@ -90,7 +98,15 @@ if (!reloading)
 	{
 		if (wep > 0)
 		{
-			wep -= 1;
+			// Workaround for missing XM 58
+			if (wep != 9)
+			{
+				wep -= 1;
+			}
+			else
+			{
+				wep -= 2;
+			}
 		}
 		// Only works in experiment mode. Look up menu tutorial from Shaun Spalding for cycling.
 		else if (wep == 0)

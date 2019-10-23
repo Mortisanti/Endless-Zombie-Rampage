@@ -1,4 +1,4 @@
-maxSpawn = 100;
+maxSpawn = 5;
 spawnCount = 0;
-spawnRate = 60;
+spawnRate = 30;
 canSpawn = true;

@@ -82,6 +82,7 @@ wep_sprite[7] = sPistol;
 wep_damage[7] = 2;
 
 // Collision Line?
+/*
 wep_name[8] = "XM 58 Laser Cannon";
 wep_auto[8] = false;
 wep_currentAmmo[8] = 1;
@@ -91,6 +92,7 @@ wep_ROF[8] = 2;
 wep_reloadTime[8] = 120;
 wep_sprite[8] = sPistol;
 wep_damage[8] = 100;
+*/
 
 wep_name[9] = "CZ 97b";
 wep_auto[9] = false;
@@ -208,7 +210,7 @@ wep_currentAmmo[20] = 80;
 wep_maxAmmo[20] = 80;
 wep_HUDSprite[20] = sH_jackhammer;
 wep_ROF[20] = 2;
-wep_reloadTime[20] = 40;
+wep_reloadTime[20] = 90;
 wep_sprite[20] = sPistol;
 wep_damage[20] = 20; // x5
 
