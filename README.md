@@ -3,7 +3,7 @@ This is a shoddy remake of the original Endless Zombie Rampage by Diseased Produ
 
 **CONTROLS**
 
-WASD - movement
+WASD - Movement
 
 LMB - Fire
 
@@ -12,3 +12,5 @@ R - Reload
 Mousewheel Up/Down - Weapon cycle
 
 Q/E - Weapon cycle
+
+F - Restart game
