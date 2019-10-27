@@ -1,4 +1,6 @@
-if (death == 0)
+oGlobalControls.killCount += 1;
+
+if (deathAnim == 0)
 {
 	instance_create_layer(x,y,"Corpses",oZombie1Dead1);
 }

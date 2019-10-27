@@ -4,6 +4,7 @@ if (instance_exists(oPlayer))
 	draw_text(camX+10,camY+5,oPlayer.wep_name[oPlayer.wep]);
 	draw_sprite(oPlayer.wep_HUDSprite[oPlayer.wep],0,camX+10,camY+30);
 	draw_set_font(fHUDAmmo);
+	draw_text(camX+350,camY+5,"Kills: "+string(killCount));
 
 	if (!oPlayer.reloading)
 	{	

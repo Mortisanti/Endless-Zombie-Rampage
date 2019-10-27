@@ -14,3 +14,5 @@ shake_length = 0;
 shake_strength = 0;
 shake_remain = 0;
 buff = 16;
+
+killCount = 0;

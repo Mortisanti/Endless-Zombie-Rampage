@@ -1,2 +1,2 @@
-image_angle = point_direction(x,y,oPlayer.x,oPlayer.y);
+image_angle = random(360);
 image_alpha = 0;

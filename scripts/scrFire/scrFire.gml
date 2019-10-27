@@ -12,7 +12,7 @@ if (wep == 0)
 	}
 	instance_create_layer(x,y,"Player",oMuzzleFlash);
 	audio_play_sound(pistol,10,false);
-	scrScreenShake(50,10);
+	scrScreenShake(25,10);
 }
 
 #endregion
@@ -29,7 +29,7 @@ if (wep == 1)
 	}
 	instance_create_layer(x,y,"Player",oMuzzleFlash);
 	audio_play_sound(magnum,10,false);
-	scrScreenShake(75,10);
+	scrScreenShake(50,10);
 }
 
 #endregion
@@ -46,8 +46,8 @@ if (wep == 2)
 		direction = direction + random_range(-3,3);
 	}
 	instance_create_layer(x,y,"Player",oMuzzleFlash);
-	audio_play_sound(smg,10,false);
-	scrScreenShake(35,10);
+	audio_play_sound(SMG,10,false);
+	scrScreenShake(25,10);
 }
 
 #endregion
@@ -65,7 +65,7 @@ if (wep == 3)
 	}
 	instance_create_layer(x,y,"Player",oMuzzleFlash);
 	audio_play_sound(assault_rifle,10,false);
-	scrScreenShake(35,10);
+	scrScreenShake(25,10);
 }
 
 #endregion
@@ -107,7 +107,7 @@ if (wep == 5)
 	}
 	instance_create_layer(x,y,"Player",oMuzzleFlash);
 	audio_play_sound(auto_shotgun,10,false);
-	scrScreenShake(35,10);
+	scrScreenShake(50,10);
 }
 
 #endregion
@@ -124,8 +124,8 @@ if (wep == 6)
 		direction = direction + random_range(-3,3);
 	}
 	instance_create_layer(x,y,"Player",oMuzzleFlash);
-	audio_play_sound(lmg,10,false);
-	scrScreenShake(35,10);
+	audio_play_sound(LMG,10,false);
+	scrScreenShake(25,10);
 }
 
 #endregion
@@ -143,7 +143,7 @@ if (wep == 7)
 	}
 	instance_create_layer(x,y,"Player",oMuzzleFlash);
 	audio_play_sound(minigun,10,false);
-	scrScreenShake(35,10);
+	scrScreenShake(25,10);
 }
 
 #endregion
@@ -161,7 +161,7 @@ if (wep == 8)
 	}
 	instance_create_layer(x,y,"Player",oMuzzleFlash);
 	audio_play_sound(assault_rifle,10,false);
-	scrScreenShake(35,10);
+	scrScreenShake(100,10);
 }
 */
 #endregion
@@ -178,7 +178,7 @@ if (wep == 9)
 	}
 	instance_create_layer(x,y,"Player",oMuzzleFlash);
 	audio_play_sound(pistol,10,false);
-	scrScreenShake(35,10);
+	scrScreenShake(25,10);
 }
 
 #endregion
@@ -212,8 +212,8 @@ if (wep == 11)
 		direction = direction + random_range(-3,3);
 	}
 	instance_create_layer(x,y,"Player",oMuzzleFlash);
-	audio_play_sound(smg,10,false);
-	scrScreenShake(35,10);
+	audio_play_sound(SMG,10,false);
+	scrScreenShake(25,10);
 }
 
 #endregion
@@ -231,7 +231,7 @@ if (wep == 12)
 	}
 	instance_create_layer(x,y,"Player",oMuzzleFlash);
 	audio_play_sound(assault_rifle,10,false);
-	scrScreenShake(35,10);
+	scrScreenShake(25,10);
 }
 
 #endregion
@@ -290,8 +290,8 @@ if (wep == 15)
 		direction = direction + random_range(-3,3);
 	}
 	instance_create_layer(x,y,"Player",oMuzzleFlash);
-	audio_play_sound(lmg,10,false);
-	scrScreenShake(35,10);
+	audio_play_sound(LMG,10,false);
+	scrScreenShake(25,10);
 }
 
 #endregion
@@ -309,7 +309,7 @@ if (wep == 16)
 	}
 	instance_create_layer(x,y,"Player",oMuzzleFlash);
 	audio_play_sound(pistol,10,false);
-	scrScreenShake(35,10);
+	scrScreenShake(25,10);
 }
 
 #endregion
@@ -366,7 +366,7 @@ if (wep == 19)
 	}
 	instance_create_layer(x,y,"Player",oMuzzleFlash);
 	audio_play_sound(shotgun,10,false);
-	scrScreenShake(75,10);
+	scrScreenShake(50,10);
 }
 
 #endregion
@@ -387,7 +387,7 @@ if (wep == 20)
 	}
 	instance_create_layer(x,y,"Player",oMuzzleFlash);
 	audio_play_sound(auto_shotgun,10,false);
-	scrScreenShake(50,10);
+	scrScreenShake(35,10);
 }
 
 #endregion
@@ -405,7 +405,7 @@ if (wep == 21)
 	}
 	instance_create_layer(x,y,"Player",oMuzzleFlash);
 	audio_play_sound(minigun,10,false);
-	scrScreenShake(35,10);
+	scrScreenShake(25,10);
 }
 
 #endregion

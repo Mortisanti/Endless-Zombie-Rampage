@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "141737b6-3113-496f-8789-5918cfc63a15",
+            "Value": {
+                "id": "fdcc5a5d-984e-4dbc-8845-ffa256061336",
+                "resourcePath": "sprites\\sMagnum\\sMagnum.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "14c5b41a-c52a-4063-94b7-eaa0c9ece94e",
             "Value": {
                 "id": "96fd3ed1-31ba-4629-94d6-796444bd5ab0",
@@ -175,6 +183,14 @@
             }
         },
         {
+            "Key": "2940dc1d-cdc3-4b42-bad0-d9c837e75840",
+            "Value": {
+                "id": "ac3bb3bc-fcd2-4cf8-8a0d-7360b976d0ad",
+                "resourcePath": "sprites\\sShotgun\\sShotgun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "297a09cc-f4b7-4107-90b3-f90c70c0ce0a",
             "Value": {
                 "id": "f9961a69-ff5c-49af-a22c-8cc2adf1bccd",
@@ -252,6 +268,14 @@
                 "id": "c07748b4-e872-4e9e-b279-a83c23e1c2fe",
                 "resourcePath": "objects\\oZombie1\\oZombie1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "376d7e18-daf2-4deb-b071-e09e9fbebe59",
+            "Value": {
+                "id": "a33f3ef3-9af2-4638-9d80-0b1bd7ba80c3",
+                "resourcePath": "sprites\\sAssaultRifle\\sAssaultRifle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -386,7 +410,7 @@
             "Key": "4f64fbde-9131-4bd5-8a3e-c9e937283c67",
             "Value": {
                 "id": "2b2806a9-15ac-438a-b86e-f7e730a777ca",
-                "resourcePath": "sounds\\lmg\\lmg.yy",
+                "resourcePath": "sounds\\LMG\\LMG.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -490,7 +514,7 @@
             "Key": "63fe9d1f-6644-43d7-8ba1-74cd6ae29494",
             "Value": {
                 "id": "0e77c09b-98f1-4486-9222-8bb04bef6834",
-                "resourcePath": "sprites\\sMP5K\\sMP5K.yy",
+                "resourcePath": "sprites\\sSMG\\sSMG.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -639,6 +663,14 @@
             }
         },
         {
+            "Key": "82af41ce-03ba-4a6c-b3c7-b26b4bc7db54",
+            "Value": {
+                "id": "e3c81ef2-4994-417f-930e-8a96cfdb5c8f",
+                "resourcePath": "sprites\\sMinigun\\sMinigun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "84623de8-5043-47ed-a3e5-b26ae16488b4",
             "Value": {
                 "id": "6ab6f274-3da1-4ade-aa67-f8cea538ced0",
@@ -682,7 +714,7 @@
             "Key": "8b4fb8df-4055-4c19-847d-5cf3410c9a6b",
             "Value": {
                 "id": "4f51b51d-85d4-445a-8601-cc6e8c362067",
-                "resourcePath": "sounds\\smg\\smg.yy",
+                "resourcePath": "sounds\\SMG\\SMG.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -828,6 +860,14 @@
                 "id": "b1ca3c36-51c0-4e06-b5fa-feee6b2568e3",
                 "resourcePath": "views\\b0d790d7-36af-49ba-8b36-eb58661414c9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b1fe79ca-f694-4e36-9565-f5ed397164f6",
+            "Value": {
+                "id": "d42a629c-2b3e-48e9-8dfa-41f14dc4043b",
+                "resourcePath": "sprites\\sLaserCannon\\sLaserCannon.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1047,6 +1087,14 @@
             }
         },
         {
+            "Key": "e79cc513-62e3-4406-858b-996876778d9b",
+            "Value": {
+                "id": "3f5eb99e-2005-4734-b055-08d52c93c58d",
+                "resourcePath": "sprites\\sLMG\\sLMG.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e7a9f70d-2a51-46f4-8159-85105ac7dd6d",
             "Value": {
                 "id": "91df03cf-fb09-4f89-b695-334dda369065",
@@ -1107,6 +1155,14 @@
             "Value": {
                 "id": "ceefaefe-1c03-4ef9-81d5-cd115fb2c072",
                 "resourcePath": "sprites\\sBackground\\sBackground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f76b6f1d-6dc6-4435-a6a6-59c3e6c4855d",
+            "Value": {
+                "id": "d5d213b1-8c60-43e6-a18e-f3156d87cefb",
+                "resourcePath": "sprites\\sAutoShotgun\\sAutoShotgun.yy",
                 "resourceType": "GMSprite"
             }
         },
