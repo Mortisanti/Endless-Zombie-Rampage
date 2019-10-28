@@ -14,3 +14,5 @@ Mousewheel Up/Down - Weapon cycle
 Q/E - Weapon cycle
 
 F - Restart game
+
+F11 - Toggle fullscreen
