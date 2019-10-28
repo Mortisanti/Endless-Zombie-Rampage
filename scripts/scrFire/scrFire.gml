@@ -345,7 +345,7 @@ if (wep == 18)
 	}
 	instance_create_layer(x,y,"Player",oMuzzleFlash);
 	audio_play_sound(assault_rifle,10,false);
-	scrScreenShake(35,10);
+	scrScreenShake(25,10);
 }
 
 #endregion
