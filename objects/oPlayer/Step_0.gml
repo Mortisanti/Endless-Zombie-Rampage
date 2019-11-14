@@ -26,7 +26,7 @@ angle = point_direction(x,y,mouse_x,mouse_y);
 
 if (canShoot)
 {
-	if (wep_currentAmmo[wep] > 0 && !reloading)
+	if (!reloading && wep_currentAmmo[wep] > 0)
 	{
 		if (wep_auto[wep] == false)
 		{
@@ -53,7 +53,7 @@ if (canShoot)
 
 #region Reloading
 
-if (wep_currentAmmo[wep] < wep_maxAmmo[wep] && !reloading && keyboard_check_pressed(ord("R")))
+if (!reloading && wep_currentAmmo[wep] < wep_maxAmmo[wep] && keyboard_check_pressed(ord("R")))
 {
 	scrReload();
 }
