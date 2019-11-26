@@ -82,7 +82,6 @@ wep_sprite[7] = sMinigun;
 wep_damage[7] = 2;
 
 // Collision Line?
-/*
 wep_name[8] = "XM 58 Laser Cannon";
 wep_auto[8] = false;
 wep_currentAmmo[8] = 1;
@@ -92,7 +91,6 @@ wep_ROF[8] = 2;
 wep_reloadTime[8] = 120;
 wep_sprite[8] = sLaserCannon;
 wep_damage[8] = 100;
-*/
 
 wep_name[9] = "CZ 97b";
 wep_auto[9] = false;

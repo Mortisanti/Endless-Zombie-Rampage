@@ -42,8 +42,7 @@ if (wep == 2)
 	alarm[0] = wep_ROF[wep];
 	with instance_create_layer(x,y,"Player",oBullet)
 	{
-		direction = point_direction(x, y, mouse_x, mouse_y);
-		direction = direction + random_range(-3,3);
+		direction = point_direction(x, y, mouse_x, mouse_y) + random_range(-3,3);
 	}
 	instance_create_layer(x,y,"Player",oMuzzleFlash);
 	audio_play_sound(SMG,10,false);
@@ -149,21 +148,18 @@ if (wep == 7)
 #endregion
 
 #region XM 58 Laser Cannon
-/*
 if (wep == 8)
 {
 	wep_currentAmmo[wep] -= 1;
 	alarm[0] = wep_ROF[wep];
-	with instance_create_layer(x,y,"Player",oBullet)
+	with instance_create_layer(x,y,"Player",oLaser)
 	{
 		direction = point_direction(x, y, mouse_x, mouse_y);
-		direction = direction + random_range(-3,3);
 	}
 	instance_create_layer(x,y,"Player",oMuzzleFlash);
-	audio_play_sound(assault_rifle,10,false);
+	audio_play_sound(laser_cannon,10,false);
 	scrScreenShake(100,10);
 }
-*/
 #endregion
 
 #region CZ 97b

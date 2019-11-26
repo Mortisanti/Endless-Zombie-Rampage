@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "39888df2-f8aa-4391-a4ed-57e4b896923c",
+            "Value": {
+                "id": "41b7c12c-d50a-4c62-bb18-e08c0b6cc8fd",
+                "resourcePath": "sprites\\sLaser\\sLaser.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3a3728c2-d5c0-4d13-a257-b12f7327aa90",
             "Value": {
                 "id": "5740df50-ffab-4d96-96d8-e4420959f245",
@@ -671,6 +679,14 @@
             }
         },
         {
+            "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
+            "Value": {
+                "id": "b666ed3b-54aa-404a-a12a-e11c676724c3",
+                "resourcePath": "options\\ios\\options_ios.yy",
+                "resourceType": "GMiOSOptions"
+            }
+        },
+        {
             "Key": "84623de8-5043-47ed-a3e5-b26ae16488b4",
             "Value": {
                 "id": "6ab6f274-3da1-4ade-aa67-f8cea538ced0",
@@ -767,6 +783,14 @@
             }
         },
         {
+            "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
+            "Value": {
+                "id": "2a5cbc77-cb7a-4dd0-bce7-2f9b7174a69c",
+                "resourcePath": "options\\tvos\\options_tvos.yy",
+                "resourceType": "GMtvOSOptions"
+            }
+        },
+        {
             "Key": "966e2bc2-e799-40e9-860f-203a173f708d",
             "Value": {
                 "id": "af21aff0-98ff-49c1-ae60-7764a2f99e02",
@@ -780,6 +804,14 @@
                 "id": "6aa05c5e-e4fe-4d2a-8a9e-4813298a8829",
                 "resourcePath": "sprites\\sH_streetsweeper\\sH_streetsweeper.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
+            "Value": {
+                "id": "108597c4-2496-4be5-a3b0-223d73d9b543",
+                "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
+                "resourceType": "GMAmazonFireOptions"
             }
         },
         {
@@ -1044,6 +1076,22 @@
                 "id": "de4ed20c-dcb3-43b5-a110-472bc999e108",
                 "resourcePath": "sprites\\sMuzzleFlash1\\sMuzzleFlash1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e3ed6248-702a-44a2-ad56-19d256cc05fa",
+            "Value": {
+                "id": "25ac7bc9-26d1-4a56-b978-1a1cefa6f0cf",
+                "resourcePath": "objects\\oLaser\\oLaser.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
+            "Value": {
+                "id": "202d15f8-e347-440e-a7ed-44c21bbfde3d",
+                "resourcePath": "options\\android\\options_android.yy",
+                "resourceType": "GMAndroidOptions"
             }
         },
         {

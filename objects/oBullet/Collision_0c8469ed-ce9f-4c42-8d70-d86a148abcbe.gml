@@ -2,11 +2,11 @@ with other
 {
 	if (other.crit == 1)
 	{
-		myHealth -= 5;
+		myHealth -= (oPlayer.wep_damage[oPlayer.wep] * 5);
 	}
 	else
 	{
-		myHealth -= 1;
+		myHealth -= oPlayer.wep_damage[oPlayer.wep];
 	}
 	
 	if (other.knock == 1)

@@ -78,38 +78,21 @@ if (!reloading)
 	{
 		if (wep < 21)
 		{
-			// Workaround for missing XM 58
-			if (wep != 7)
-			{
-				wep += 1;
-			}
-			else
-			{
-				wep += 2;
-			}
+			wep += 1;
 		}
-		// Only works in experiment mode. Look up menu tutorial from Shaun Spalding for cycling.
-		else if (wep == 21)
+		else
 		{
 			wep = 0;
 		}
 	}
-	else if (mouse_wheel_down() || keyboard_check_pressed(ord("Q")))
+	
+	if (mouse_wheel_down() || keyboard_check_pressed(ord("Q")))
 	{
 		if (wep > 0)
 		{
-			// Workaround for missing XM 58
-			if (wep != 9)
-			{
-				wep -= 1;
-			}
-			else
-			{
-				wep -= 2;
-			}
+			wep -= 1;
 		}
-		// Only works in experiment mode. Look up menu tutorial from Shaun Spalding for cycling.
-		else if (wep == 0)
+		else
 		{
 			wep = 21;
 		}
