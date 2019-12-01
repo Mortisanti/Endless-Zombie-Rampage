@@ -6,7 +6,10 @@
     "children": [
         "2cc76a25-c991-455d-b948-47bc48b809fb",
         "dbf7bd2c-8444-46a2-8f44-23a6d26463c8",
-        "4a68f286-fc75-41fc-9745-61b1dac08a43"
+        "4a68f286-fc75-41fc-9745-61b1dac08a43",
+        "37f4c295-998f-41fa-894d-8e2d489b856b",
+        "b56d5821-b645-4e09-8b69-a68ed0857f0e",
+        "1dc650c5-3491-4712-a3e6-0411c15a820b"
     ],
     "filterType": "GMSprite",
     "folderName": "FX",

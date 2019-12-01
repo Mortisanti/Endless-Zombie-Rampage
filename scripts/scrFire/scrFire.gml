@@ -148,6 +148,7 @@ if (wep == 7)
 #endregion
 
 #region XM 58 Laser Cannon
+
 if (wep == 8)
 {
 	wep_currentAmmo[wep] -= 1;
@@ -156,10 +157,15 @@ if (wep == 8)
 	{
 		direction = point_direction(x, y, mouse_x, mouse_y);
 	}
+	with instance_create_layer(x,y,"LaserBurns",oLaserBurn)
+	{
+		direction = point_direction(x, y, mouse_x, mouse_y);
+	}
 	instance_create_layer(x,y,"Player",oMuzzleFlash);
 	audio_play_sound(laser_cannon,10,false);
 	scrScreenShake(100,10);
 }
+
 #endregion
 
 #region CZ 97b
