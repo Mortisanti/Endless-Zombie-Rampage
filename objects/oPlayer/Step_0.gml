@@ -53,7 +53,7 @@ if (canShoot)
 
 #region Reloading
 
-if (!reloading && wep_currentAmmo[wep] < wep_maxAmmo[wep] && keyboard_check_pressed(ord("R")))
+if (!reloading && wep_currentAmmo[wep] < wep_maxAmmo[wep] && (keyboard_check_pressed(ord("R")) || mouse_check_button(mb_right)))
 {
 	scrReload();
 }

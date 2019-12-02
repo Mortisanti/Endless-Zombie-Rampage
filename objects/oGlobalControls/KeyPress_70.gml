@@ -1,2 +1,3 @@
 /// @description Restart
-game_restart();
+audio_stop_all();
+room_restart();
