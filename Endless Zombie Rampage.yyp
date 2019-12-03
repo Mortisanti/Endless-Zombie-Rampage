@@ -119,14 +119,6 @@
             }
         },
         {
-            "Key": "1dc650c5-3491-4712-a3e6-0411c15a820b",
-            "Value": {
-                "id": "a1f3e83f-238b-404e-b2e4-e90ca9110049",
-                "resourcePath": "sprites\\sLaserBurnOLD\\sLaserBurnOLD.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "1ed0d096-4325-45ac-90b8-6c8e02228d9d",
             "Value": {
                 "id": "892ea025-1bde-46fd-b18f-c0c203cf6b6a",
