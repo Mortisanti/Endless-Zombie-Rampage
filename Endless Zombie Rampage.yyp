@@ -1127,6 +1127,14 @@
             }
         },
         {
+            "Key": "d81a2761-f4bd-47cb-a8f7-2534d8596d98",
+            "Value": {
+                "id": "1092162b-1adb-4e65-ac0e-677836c4331b",
+                "resourcePath": "objects\\oAudio\\oAudio.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d998b28a-d7eb-4576-b111-efc6d4834cde",
             "Value": {
                 "id": "5bcc95c0-5c33-4180-8318-e53b9dfa29dd",
@@ -1295,14 +1303,6 @@
             }
         },
         {
-            "Key": "ec68c8bb-7b5b-4c8d-b653-71f2b401057c",
-            "Value": {
-                "id": "b2ea79f6-af05-4f31-b4ff-68a2b8c5f221",
-                "resourcePath": "scripts\\scrZombieKilled\\scrZombieKilled.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "f13032a9-fe66-486e-b1d8-5bbe4134ac46",
             "Value": {
                 "id": "b5c5be51-5d8f-4176-87c8-8a66bcef9c29",
@@ -1379,11 +1379,10 @@
         "6f2661cd-d78f-4d12-a15d-d5ff50565f9c",
         "9111de86-26d0-4d7a-a90e-3db283137333",
         "5f715886-6ea1-4884-a62f-b02a9f9927c1",
-        "d998b28a-d7eb-4576-b111-efc6d4834cde",
-        "6bd12acc-213e-47f0-9fac-105b845623ab",
-        "443234af-98b5-4bae-8189-3259533ba5cd",
         "7ea4a600-1b36-4c02-b86b-b7d97aa94774",
-        "ec68c8bb-7b5b-4c8d-b653-71f2b401057c",
+        "443234af-98b5-4bae-8189-3259533ba5cd",
+        "6bd12acc-213e-47f0-9fac-105b845623ab",
+        "d998b28a-d7eb-4576-b111-efc6d4834cde",
         "dd858179-1d22-4947-a471-e5cd09884dfd"
     ],
     "tutorial": ""

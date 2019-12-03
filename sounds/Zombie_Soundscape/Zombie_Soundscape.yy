@@ -3,7 +3,7 @@
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "zombie_soundscape",
-    "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
+    "audioGroupGuid": "9bea7b1b-e74a-4813-bbc5-ddaf7951f0cc",
     "bitDepth": 1,
     "bitRate": 128,
     "kind": 0,

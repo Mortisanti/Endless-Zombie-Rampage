@@ -3,7 +3,7 @@
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "minigun",
-    "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
+    "audioGroupGuid": "ce947910-e164-4333-8d89-86825b895fc2",
     "bitDepth": 1,
     "bitRate": 128,
     "kind": 0,
