@@ -122,7 +122,7 @@
             "Key": "1dc650c5-3491-4712-a3e6-0411c15a820b",
             "Value": {
                 "id": "a1f3e83f-238b-404e-b2e4-e90ca9110049",
-                "resourcePath": "sprites\\sLaserBurn\\sLaserBurn.yy",
+                "resourcePath": "sprites\\sLaserBurnOLD\\sLaserBurnOLD.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1284,6 +1284,14 @@
                 "id": "c2de6759-0875-45cf-90d1-a1d847c382e4",
                 "resourcePath": "views\\e8541e74-5137-46d9-8513-27e395394c43.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e9c243fe-4b18-47bc-9032-58bd7fba5279",
+            "Value": {
+                "id": "a8d3cb9e-e00d-44bb-9ca5-40a768e8d50f",
+                "resourcePath": "sprites\\sLaserBurn\\sLaserBurn.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

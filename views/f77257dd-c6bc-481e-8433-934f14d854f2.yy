@@ -9,7 +9,8 @@
         "4a68f286-fc75-41fc-9745-61b1dac08a43",
         "37f4c295-998f-41fa-894d-8e2d489b856b",
         "b56d5821-b645-4e09-8b69-a68ed0857f0e",
-        "1dc650c5-3491-4712-a3e6-0411c15a820b"
+        "1dc650c5-3491-4712-a3e6-0411c15a820b",
+        "e9c243fe-4b18-47bc-9032-58bd7fba5279"
     ],
     "filterType": "GMSprite",
     "folderName": "FX",
