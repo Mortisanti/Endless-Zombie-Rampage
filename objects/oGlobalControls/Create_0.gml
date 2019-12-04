@@ -20,3 +20,5 @@ buff = 16;
 #endregion
 
 killCount = 0;
+paused = false;
+allObjects[0, 0] = noone;
