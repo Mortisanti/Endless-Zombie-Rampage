@@ -6,5 +6,5 @@ if (room = 0)
 if (room = 1)
 {
 	room_goto(0);
-	audio_play_sound(laser_cannon,10,false);
+	audio_play_sound(laser_cannon,9,false);
 }

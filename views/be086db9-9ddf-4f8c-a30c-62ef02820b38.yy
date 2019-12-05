@@ -8,7 +8,7 @@
         "0ea1ba1c-2dfc-49c0-b513-2865b3d1897f"
     ],
     "filterType": "GMSound",
-    "folderName": "Ambience",
+    "folderName": "Music",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

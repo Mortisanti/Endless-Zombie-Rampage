@@ -16,6 +16,7 @@ if (paused == true)
 	}
 	*/
 	
+	draw_rectangle_color(camX,camY,camX+view_width,camY+view_height,c_black,c_black,c_black,c_black,false);
 	draw_set_font(fHUDName);
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_center);

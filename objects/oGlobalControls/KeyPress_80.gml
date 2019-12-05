@@ -1,4 +1,4 @@
-if (paused == false)
+if (!paused)
 {
 	/* Capture all sprite data into 2D array
 	var offset = 0;

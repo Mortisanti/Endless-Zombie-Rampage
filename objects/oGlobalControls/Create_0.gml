@@ -21,4 +21,4 @@ buff = 16;
 
 killCount = 0;
 paused = false;
-allObjects[0, 0] = noone;
+// allObjects[0, 0] = noone;
