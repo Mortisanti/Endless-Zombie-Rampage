@@ -1,6 +1,3 @@
-// CALCULATE RATES OF FIRE
-// IMPORT WEAPON SPRITES AND CODE
-
 wep_name[0] = "USP";
 wep_auto[0] = false;
 wep_currentAmmo[0] = 10;
@@ -81,7 +78,6 @@ wep_reloadTime[7] = 360;
 wep_sprite[7] = sMinigun;
 wep_damage[7] = 2;
 
-// Collision Line?
 wep_name[8] = "XM 58 Laser Cannon";
 wep_auto[8] = false;
 wep_currentAmmo[8] = 1;

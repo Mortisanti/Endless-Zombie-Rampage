@@ -47,8 +47,6 @@ if (instance_exists(oPlayer))
 	else
 	{
 		draw_text(camX+90,camY+45,"Reloading");
-		// remove this
-		draw_text(camX+175,camY+45,string(oPlayer.reloadStart));
 		draw_sprite(sReloadBar1,0,camX+95,camY+60);
 		draw_sprite_stretched(sReloadBar2,0,camX+95,camY+60,(oPlayer.reloadStart / oPlayer.wep_reloadTime[oPlayer.wep]) * 56,6)
 	}
