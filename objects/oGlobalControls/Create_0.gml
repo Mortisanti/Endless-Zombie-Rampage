@@ -42,4 +42,5 @@ buff = 16;
 
 killCount = 0;
 paused = false;
+bloodEnabled = true;
 // allObjects[0, 0] = noone;

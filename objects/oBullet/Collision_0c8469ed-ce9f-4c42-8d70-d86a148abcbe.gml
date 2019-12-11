@@ -19,9 +19,12 @@ with other
 		}
 	}
 	
-	if (other.splatter == 1)
+	if (oGlobalControls.bloodEnabled)
 	{
-		instance_create_layer(x,y,"Enemies",oSplatter);
+		if (other.splatter == 1)
+		{
+			instance_create_layer(x,y,"Enemies",oSplatter);
+		}
 	}
 }
 

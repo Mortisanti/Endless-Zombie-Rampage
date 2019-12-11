@@ -743,6 +743,14 @@
             }
         },
         {
+            "Key": "83f83290-c690-4c6a-a123-1a3e44b04679",
+            "Value": {
+                "id": "0222beac-f01f-4d74-9b59-c51d7d8bd4fa",
+                "resourcePath": "views\\83f83290-c690-4c6a-a123-1a3e44b04679.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
             "Value": {
                 "id": "b666ed3b-54aa-404a-a12a-e11c676724c3",
@@ -844,6 +852,14 @@
                 "id": "71ff213b-dfbc-40d7-bd5c-1c8c6be9c9f3",
                 "resourcePath": "sprites\\sZombie1Dead2\\sZombie1Dead2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "91de23f5-73b9-4534-9a59-5d6dca2a0cf1",
+            "Value": {
+                "id": "f711ee93-f80f-4e76-ac82-1ae10c298bf9",
+                "resourcePath": "objects\\oEnemy\\oEnemy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1103,6 +1119,14 @@
             }
         },
         {
+            "Key": "cc3bf366-2e83-4499-86dc-9ec1314fc0f7",
+            "Value": {
+                "id": "be53b99e-4dde-4f4e-8c8f-6ef883a4c626",
+                "resourcePath": "scripts\\scrZombies\\scrZombies.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "9a29f903-b23f-42a5-8cf7-f47cabfaf9cb",
@@ -1319,6 +1343,14 @@
             }
         },
         {
+            "Key": "f32ca1b7-8a1c-402e-8bef-3d37e287925e",
+            "Value": {
+                "id": "24480866-c072-4e3c-9394-51d93684414a",
+                "resourcePath": "views\\f32ca1b7-8a1c-402e-8bef-3d37e287925e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "f866df34-23d2-4c63-883f-3e826d7e1e23",
@@ -1379,11 +1411,12 @@
         "6f2661cd-d78f-4d12-a15d-d5ff50565f9c",
         "9111de86-26d0-4d7a-a90e-3db283137333",
         "5f715886-6ea1-4884-a62f-b02a9f9927c1",
+        "dd858179-1d22-4947-a471-e5cd09884dfd",
         "7ea4a600-1b36-4c02-b86b-b7d97aa94774",
         "443234af-98b5-4bae-8189-3259533ba5cd",
         "6bd12acc-213e-47f0-9fac-105b845623ab",
         "d998b28a-d7eb-4576-b111-efc6d4834cde",
-        "dd858179-1d22-4947-a471-e5cd09884dfd"
+        "cc3bf366-2e83-4499-86dc-9ec1314fc0f7"
     ],
     "tutorial": ""
 }

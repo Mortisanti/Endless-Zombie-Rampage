@@ -1,0 +1,9 @@
+z_name[0] = "Walker"
+z_health[0] = 5;
+z_speed[0] = 1.5;
+z_damage[0] = 1;
+z_cooldown[0] = 60;
+z_sprite[0] = oZombie1;
+z_spriteDead1[0] = oZombie1Dead1;
+z_spriteDead2[0] = oZombie1Dead2;
+z_exp[0] = 5;
