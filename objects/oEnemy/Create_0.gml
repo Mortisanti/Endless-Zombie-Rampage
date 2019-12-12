@@ -1,4 +1,3 @@
-/*
 enum states
 {
 	chasePlayer,
@@ -6,7 +5,6 @@ enum states
 	attack,
 	idle
 }
-*/
 
 myHealth = 5;
 spd = 0.5;
