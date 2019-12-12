@@ -1,3 +1,5 @@
+#region Get Resolution
+
 native_width = display_get_width();
 native_height = display_get_height();
 resolution = native_width * native_height;
@@ -11,6 +13,8 @@ else
 {
 	res_4k = false;
 }
+
+#endregion
 
 #region Window Scaling & Screenshake
 
