@@ -1,3 +1,6 @@
+window_set_cursor(cr_none);
+instance_create_depth(mouse_x,mouse_y,-1,oCrosshair);
+
 #region Get Resolution
 
 native_width = display_get_width();

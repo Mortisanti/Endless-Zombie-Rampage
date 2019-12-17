@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "04f612f7-9378-4cd6-998c-05691abbb41a",
+            "Value": {
+                "id": "3935a5fe-527e-4c09-9588-1bad845cfbb7",
+                "resourcePath": "sprites\\sCrosshairOLD\\sCrosshairOLD.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "06c961bb-66ca-4add-a6ac-b04ce2ae4c34",
             "Value": {
                 "id": "9f15e039-4af4-452f-85d1-072d7fccb66f",
@@ -107,6 +115,14 @@
             "Value": {
                 "id": "54b789d7-9adb-40e3-ac9e-5fe317bb7cf6",
                 "resourcePath": "views\\19af1e37-0dba-45f7-a51d-68c756b587ac.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1a52683e-6f3f-4562-8dfa-a60a478ab211",
+            "Value": {
+                "id": "1c493cee-9a80-48b7-aa10-f9accad5d42c",
+                "resourcePath": "views\\1a52683e-6f3f-4562-8dfa-a60a478ab211.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -455,6 +471,14 @@
             }
         },
         {
+            "Key": "4de90229-0d7f-4de0-aa07-18ba1fa44340",
+            "Value": {
+                "id": "c827bed4-8b06-4042-8cd3-c81a1a6de196",
+                "resourcePath": "objects\\oCrosshair\\oCrosshair.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4f62b7eb-e3ed-47cf-bcf5-c1d7ed92dcf2",
             "Value": {
                 "id": "ed7c3647-dfc9-4b1d-b770-2d1501856fa3",
@@ -556,14 +580,6 @@
                 "id": "d69de199-7a79-4ca8-b40e-142b2036a9b6",
                 "resourcePath": "scripts\\scrReload\\scrReload.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "612a7f1f-9544-41de-a036-522432c2dffd",
-            "Value": {
-                "id": "7ef2db1f-95b7-4ebb-be25-8fc54c93bbcc",
-                "resourcePath": "views\\612a7f1f-9544-41de-a036-522432c2dffd.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
