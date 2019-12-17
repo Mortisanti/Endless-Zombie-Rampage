@@ -415,6 +415,14 @@
             }
         },
         {
+            "Key": "479ef47c-094e-4006-845a-4fe41f024832",
+            "Value": {
+                "id": "ce6cf61d-8e88-4563-96fc-7c641cbb9096",
+                "resourcePath": "objects\\oZombie2\\oZombie2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "48538561-b400-4038-849d-54f3ca31b7b2",
             "Value": {
                 "id": "ea28f1c0-4e9f-433e-8a36-ece934305086",
@@ -435,6 +443,14 @@
             "Value": {
                 "id": "27c550cb-440f-446e-871b-8e44d77d29cb",
                 "resourcePath": "sprites\\sH_SW\\sH_SW.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4de0837a-f446-4529-be5e-1f108f13bad7",
+            "Value": {
+                "id": "2fcb2598-3582-4e34-80b0-7d7e66820fed",
+                "resourcePath": "sprites\\sZombie2\\sZombie2.yy",
                 "resourceType": "GMSprite"
             }
         },

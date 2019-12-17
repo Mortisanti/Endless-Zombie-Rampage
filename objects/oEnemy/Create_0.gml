@@ -6,6 +6,7 @@ enum states
 	idle
 }
 
+/*
 myHealth = 5;
 spd = 0.5;
 canAttack = true;
@@ -21,3 +22,4 @@ else
 {
 	state = states.chasePlayer;
 }
+*/

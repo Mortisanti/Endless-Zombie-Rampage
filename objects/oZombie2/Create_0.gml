@@ -1,5 +1,5 @@
-myHealth = 5;
-spd = 0.5;
+myHealth = 10;
+spd = 1;
 canAttack = true;
 meleeDamage = 1;
 chaseWho = choose(0,1);

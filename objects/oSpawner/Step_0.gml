@@ -1,18 +1,23 @@
-if (canSpawn)
+if (instance_exists(oPlayer))
 {
-	if (spawnCount < maxSpawn)
+	if (canSpawn)
 	{
-		canSpawn = false;
-		instance_create_layer(random_range(-20,580),580,"Enemies",oZombie1);
-		spawnCount += 1;
-		alarm[0] = spawnRate;
-	}
-	// Reset spawner
-	else
-	{
-		canSpawn = false;
-		instance_create_layer(random_range(-20,580),580,"Enemies",oZombie1);
-		spawnCount += 1;
-		alarm[0] = spawnRate;
+		if (spawnCount < maxSpawn)
+		{
+			canSpawn = false;
+			zombieType = choose(0,1);
+			instance_create_layer(random_range(-20,580),580,"Enemies",z_object[zombieType]);
+			spawnCount += 1;
+			alarm[0] = spawnRate;
+		}
+		// Infinite Spawn
+		else
+		{
+			canSpawn = false;
+			zombieType = choose(0,1);
+			instance_create_layer(random_range(-20,580),580,"Enemies",z_object[zombieType]);
+			spawnCount += 1;
+			alarm[0] = spawnRate;
+		}
 	}
 }
