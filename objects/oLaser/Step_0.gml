@@ -11,10 +11,10 @@ for (var i = 0; i < max_length; i++)
 	}
 }
 
-if (instance_exists(oZombie1))
+if (instance_exists(oEnemy))
 {
 	var _list = ds_list_create();
-	var hits = collision_line_list(x,y,xEnd,yEnd,oZombie1,0,0,_list,0);
+	var hits = collision_line_list(x,y,xEnd,yEnd,oEnemy,0,0,_list,0);
 	
 	if (hits > 0)
 	{

@@ -6,11 +6,11 @@ enum states
 	idle
 }
 
-/*
-myHealth = 5;
-spd = 0.5;
+
+myHealth = maxHealth;
+spd = maxSpeed;
+meleeDamage = maxMeleeDamage;
 canAttack = true;
-meleeDamage = 1;
 chaseWho = choose(0,1);
 deathAnim = choose(0,1);
 
@@ -22,4 +22,3 @@ else
 {
 	state = states.chasePlayer;
 }
-*/
