@@ -10,7 +10,12 @@ if (instance_exists(oPlayer))
 		if (canAttack == true)
 		{
 			canAttack = false;
-			oPlayer.myHealth -= meleeDamage;
+			
+			if (!oPlayer.godMode)
+			{
+				oPlayer.myHealth -= meleeDamage;
+			}
+			
 			audio_play_sound(player_hit,10,false);
 			instance_create_layer(oGlobalControls.camX+(oGlobalControls.view_width/2),oGlobalControls.camY+(oGlobalControls.view_height/2),"HitBorder",oHitBorder);
 			alarm[0] = 90;
@@ -24,7 +29,12 @@ if (instance_exists(oPlayer))
 		if (canAttack == true)
 		{
 			canAttack = false;
-			oFort.myHealth -= meleeDamage;
+			
+			if (!oPlayer.godMode)
+			{
+				oFort.myHealth -= meleeDamage;
+			}
+			
 			alarm[0] = 90;
 		}
 		

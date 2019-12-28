@@ -7,6 +7,15 @@ if (instance_exists(oPlayer))
 			canSpawn = false;
 			zombieType = choose(0,1);
 			instance_create_layer(random_range(-20,580),580,"Enemies",z_object[zombieType]);
+			instance_create_layer(random_range(-20,580),580,"Enemies",z_object[zombieType]);
+			instance_create_layer(random_range(-20,580),580,"Enemies",z_object[zombieType]);
+			instance_create_layer(random_range(-20,580),580,"Enemies",z_object[zombieType]);
+			instance_create_layer(random_range(-20,580),580,"Enemies",z_object[zombieType]);
+			instance_create_layer(random_range(-20,580),580,"Enemies",z_object[zombieType]);
+			instance_create_layer(random_range(-20,580),580,"Enemies",z_object[zombieType]);
+			instance_create_layer(random_range(-20,580),580,"Enemies",z_object[zombieType]);
+			instance_create_layer(random_range(-20,580),580,"Enemies",z_object[zombieType]);
+			instance_create_layer(random_range(-20,580),580,"Enemies",z_object[zombieType]);
 			spawnCount += 1;
 			alarm[0] = spawnRate;
 		}
@@ -15,6 +24,15 @@ if (instance_exists(oPlayer))
 		{
 			canSpawn = false;
 			zombieType = choose(0,1);
+			instance_create_layer(random_range(-20,580),580,"Enemies",z_object[zombieType]);
+			instance_create_layer(random_range(-20,580),580,"Enemies",z_object[zombieType]);
+			instance_create_layer(random_range(-20,580),580,"Enemies",z_object[zombieType]);
+			instance_create_layer(random_range(-20,580),580,"Enemies",z_object[zombieType]);
+			instance_create_layer(random_range(-20,580),580,"Enemies",z_object[zombieType]);
+			instance_create_layer(random_range(-20,580),580,"Enemies",z_object[zombieType]);
+			instance_create_layer(random_range(-20,580),580,"Enemies",z_object[zombieType]);
+			instance_create_layer(random_range(-20,580),580,"Enemies",z_object[zombieType]);
+			instance_create_layer(random_range(-20,580),580,"Enemies",z_object[zombieType]);
 			instance_create_layer(random_range(-20,580),580,"Enemies",z_object[zombieType]);
 			spawnCount += 1;
 			alarm[0] = spawnRate;

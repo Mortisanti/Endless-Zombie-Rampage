@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0326d464-f8b2-42e6-9bf8-b2df5096a7b7",
+            "Value": {
+                "id": "e67b8985-8988-4987-a986-5c7539a8182a",
+                "resourcePath": "sounds\\god_mode\\god_mode.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "03fb8814-960d-46c3-80cd-fca2c4fe4684",
             "Value": {
                 "id": "01fe4c6c-a8b1-43cb-9935-68e9c3100cf2",

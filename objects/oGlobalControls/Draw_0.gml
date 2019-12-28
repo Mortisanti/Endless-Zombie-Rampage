@@ -39,6 +39,11 @@ if (instance_exists(oPlayer))
 	draw_sprite(oPlayer.wep_HUDSprite[oPlayer.wep],0,camX+10,camY+30);
 	draw_set_font(fHUDAmmo);
 	draw_text(camX+350,camY+5,"Kills: "+string(killCount));
+	
+	if (oPlayer.godMode)
+	{
+		draw_text(camX+350,camY+25,"GOD MODE");
+	}
 
 	if (!oPlayer.reloading)
 	{	

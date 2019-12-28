@@ -8,3 +8,4 @@ wep = 0;
 canShoot = true;
 reloading = false;
 reloadStart = 0;
+godMode = false;

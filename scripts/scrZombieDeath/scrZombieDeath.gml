@@ -1,7 +1,7 @@
 /// @description The zombie death to be drawn
 /// @arg sprite
 // Get the sprite animation values
-// Note: deathSprite is the variable that stores the sprite used for the death animation
+// Note: argument0 is the variable that stores the sprite used for the death animation
 var num = sprite_get_number(argument0);
 var spd = sprite_get_speed(argument0);
 var corpse_sprite = layer_sprite_create(oCorpses.corpse_layer, x, y, argument0);

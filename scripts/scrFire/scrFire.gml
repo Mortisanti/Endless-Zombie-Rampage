@@ -4,7 +4,11 @@ canShoot = false;
 
 if (wep == 0)
 {
-	wep_currentAmmo[wep] -= 1;
+	if (!godMode)
+	{
+		wep_currentAmmo[wep] -= 1;
+	}
+	
 	alarm[0] = wep_ROF[wep];
 	with instance_create_layer(x,y,"Player",oBullet)
 	{
@@ -21,7 +25,11 @@ if (wep == 0)
 
 if (wep == 1)
 {
-	wep_currentAmmo[wep] -= 1;
+	if (!godMode)
+	{
+		wep_currentAmmo[wep] -= 1;
+	}
+	
 	alarm[0] = wep_ROF[wep];
 	with instance_create_layer(x,y,"Player",oBullet)
 	{
@@ -38,7 +46,11 @@ if (wep == 1)
 
 if (wep == 2)
 {
-	wep_currentAmmo[wep] -= 1;
+	if (!godMode)
+	{
+		wep_currentAmmo[wep] -= 1;
+	}
+	
 	alarm[0] = wep_ROF[wep];
 	with instance_create_layer(x,y,"Player",oBullet)
 	{
@@ -55,7 +67,11 @@ if (wep == 2)
 
 if (wep == 3)
 {
-	wep_currentAmmo[wep] -= 1;
+	if (!godMode)
+	{
+		wep_currentAmmo[wep] -= 1;
+	}
+	
 	alarm[0] = wep_ROF[wep];
 	with instance_create_layer(x,y,"Player",oBullet)
 	{
@@ -73,7 +89,11 @@ if (wep == 3)
 
 if (wep == 4)
 {
-	wep_currentAmmo[wep] -= 1;
+	if (!godMode)
+	{
+		wep_currentAmmo[wep] -= 1;
+	}
+	
 	alarm[0] = wep_ROF[wep];
 	repeat(10)
 	{
@@ -94,7 +114,11 @@ if (wep == 4)
 
 if (wep == 5)
 {
-	wep_currentAmmo[wep] -= 1;
+	if (!godMode)
+	{
+		wep_currentAmmo[wep] -= 1;
+	}
+	
 	alarm[0] = wep_ROF[wep];
 	repeat(5)
 	{
@@ -115,7 +139,11 @@ if (wep == 5)
 
 if (wep == 6)
 {
-	wep_currentAmmo[wep] -= 1;
+	if (!godMode)
+	{
+		wep_currentAmmo[wep] -= 1;
+	}
+	
 	alarm[0] = wep_ROF[wep];
 	with instance_create_layer(x,y,"Player",oBullet)
 	{
@@ -133,7 +161,11 @@ if (wep == 6)
 
 if (wep == 7)
 {
-	wep_currentAmmo[wep] -= 1;
+	if (!godMode)
+	{
+		wep_currentAmmo[wep] -= 1;
+	}
+	
 	alarm[0] = wep_ROF[wep];
 	with instance_create_layer(x,y,"Player",oBullet)
 	{
@@ -151,16 +183,28 @@ if (wep == 7)
 
 if (wep == 8)
 {
-	wep_currentAmmo[wep] -= 1;
+	if (!godMode)
+	{
+		wep_currentAmmo[wep] -= 1;
+	}
+	
 	alarm[0] = wep_ROF[wep];
 	with instance_create_layer(x,y,"Player",oLaser)
 	{
 		direction = point_direction(x, y, mouse_x, mouse_y);
 	}
+	
+	/*
 	with instance_create_layer(x,y,"LaserBurns",oLaserBurn)
 	{
 		direction = point_direction(x, y, mouse_x, mouse_y);
 	}
+	*/
+	var burn_layer = layer_get_id("Burns");
+	var burn_id = layer_sprite_create(burn_layer,x,y,sLaserBurn)
+	layer_sprite_xscale(burn_id,600);
+	layer_sprite_alpha(burn_id,0.2);
+	layer_sprite_angle(burn_id,point_direction(x,y,mouse_x,mouse_y));
 	instance_create_layer(x,y,"Player",oMuzzleFlash);
 	audio_play_sound(laser_cannon,10,false);
 	scrScreenShake(100,10);
@@ -172,7 +216,11 @@ if (wep == 8)
 
 if (wep == 9)
 {
-	wep_currentAmmo[wep] -= 1;
+	if (!godMode)
+	{
+		wep_currentAmmo[wep] -= 1;
+	}
+	
 	alarm[0] = wep_ROF[wep];
 	with instance_create_layer(x,y,"Player",oBullet)
 	{
@@ -189,7 +237,11 @@ if (wep == 9)
 
 if (wep == 10)
 {
-	wep_currentAmmo[wep] -= 1;
+	if (!godMode)
+	{
+		wep_currentAmmo[wep] -= 1;
+	}
+	
 	alarm[0] = wep_ROF[wep];
 	with instance_create_layer(x,y,"Player",oBullet)
 	{
@@ -206,7 +258,11 @@ if (wep == 10)
 
 if (wep == 11)
 {
-	wep_currentAmmo[wep] -= 1;
+	if (!godMode)
+	{
+		wep_currentAmmo[wep] -= 1;
+	}
+	
 	alarm[0] = wep_ROF[wep];
 	with instance_create_layer(x,y,"Player",oBullet)
 	{
@@ -224,7 +280,11 @@ if (wep == 11)
 
 if (wep == 12)
 {
-	wep_currentAmmo[wep] -= 1;
+	if (!godMode)
+	{
+		wep_currentAmmo[wep] -= 1;
+	}
+	
 	alarm[0] = wep_ROF[wep];
 	with instance_create_layer(x,y,"Player",oBullet)
 	{
@@ -242,7 +302,11 @@ if (wep == 12)
 
 if (wep == 13)
 {
-	wep_currentAmmo[wep] -= 1;
+	if (!godMode)
+	{
+		wep_currentAmmo[wep] -= 1;
+	}
+	
 	alarm[0] = wep_ROF[wep];
 	repeat(10)
 	{
@@ -263,7 +327,11 @@ if (wep == 13)
 
 if (wep == 14)
 {
-	wep_currentAmmo[wep] -= 1;
+	if (!godMode)
+	{
+		wep_currentAmmo[wep] -= 1;
+	}
+	
 	alarm[0] = wep_ROF[wep];
 	repeat(5)
 	{
@@ -284,7 +352,11 @@ if (wep == 14)
 
 if (wep == 15)
 {
-	wep_currentAmmo[wep] -= 1;
+	if (!godMode)
+	{
+		wep_currentAmmo[wep] -= 1;
+	}
+	
 	alarm[0] = wep_ROF[wep];
 	with instance_create_layer(x,y,"Player",oBullet)
 	{
@@ -302,7 +374,11 @@ if (wep == 15)
 
 if (wep == 16)
 {
-	wep_currentAmmo[wep] -= 1;
+	if (!godMode)
+	{
+		wep_currentAmmo[wep] -= 1;
+	}
+	
 	alarm[0] = wep_ROF[wep];
 	with instance_create_layer(x,y,"Player",oBullet)
 	{
@@ -320,7 +396,11 @@ if (wep == 16)
 
 if (wep == 17)
 {
-	wep_currentAmmo[wep] -= 1;
+	if (!godMode)
+	{
+		wep_currentAmmo[wep] -= 1;
+	}
+	
 	alarm[0] = wep_ROF[wep];
 	with instance_create_layer(x,y,"Player",oBullet)
 	{
@@ -338,7 +418,11 @@ if (wep == 17)
 
 if (wep == 18)
 {
-	wep_currentAmmo[wep] -= 1;
+	if (!godMode)
+	{
+		wep_currentAmmo[wep] -= 1;
+	}
+	
 	alarm[0] = wep_ROF[wep];
 	with instance_create_layer(x,y,"Player",oBullet)
 	{
@@ -356,7 +440,11 @@ if (wep == 18)
 
 if (wep == 19)
 {
-	wep_currentAmmo[wep] -= 1;
+	if (!godMode)
+	{
+		wep_currentAmmo[wep] -= 1;
+	}
+	
 	alarm[0] = wep_ROF[wep];
 	repeat(10)
 	{
@@ -377,7 +465,11 @@ if (wep == 19)
 
 if (wep == 20)
 {
-	wep_currentAmmo[wep] -= 1;
+	if (!godMode)
+	{
+		wep_currentAmmo[wep] -= 1;
+	}
+	
 	alarm[0] = wep_ROF[wep];
 	repeat(5)
 	{
@@ -398,7 +490,11 @@ if (wep == 20)
 
 if (wep == 21)
 {
-	wep_currentAmmo[wep] -= 1;
+	if (!godMode)
+	{
+		wep_currentAmmo[wep] -= 1;
+	}
+	
 	alarm[0] = wep_ROF[wep];
 	with instance_create_layer(x,y,"Player",oBullet)
 	{
