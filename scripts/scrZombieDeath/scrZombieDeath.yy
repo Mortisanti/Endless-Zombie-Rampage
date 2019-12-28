@@ -1,8 +1,8 @@
 {
-    "id": "76e8cd4b-b890-4cc8-9c63-1bece4a83264",
+    "id": "cab20580-756d-4a73-a050-cdd8f57c3464",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scrZombies",
+    "name": "scrZombieDeath",
     "IsCompatibility": false,
     "IsDnD": false
 }

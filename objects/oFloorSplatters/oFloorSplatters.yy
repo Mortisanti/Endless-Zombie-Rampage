@@ -1,28 +1,28 @@
 {
-    "id": "328ddca5-cc94-4a05-a5a0-216e51eed867",
+    "id": "332ecaaa-a753-468f-8fbb-a7c702ec1bca",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oZombie1Dead2",
+    "name": "oFloorSplatters",
     "eventList": [
         {
-            "id": "73ec0da5-3559-4a15-9ed8-31a6bb69527b",
+            "id": "1a85843e-d455-4ac3-9906-b96a2b10a1cf",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "328ddca5-cc94-4a05-a5a0-216e51eed867"
+            "m_owner": "332ecaaa-a753-468f-8fbb-a7c702ec1bca"
         },
         {
-            "id": "86f93f2e-3994-4d8e-bb7a-39a7195e90f5",
+            "id": "1772603b-5327-489a-a417-2d700558bb61",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 7,
-            "m_owner": "328ddca5-cc94-4a05-a5a0-216e51eed867"
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "332ecaaa-a753-468f-8fbb-a7c702ec1bca"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "9140e4a9-4a2f-4cd0-af7c-4a3af0ed8802",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
